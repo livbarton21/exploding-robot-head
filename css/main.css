@@ -20,17 +20,22 @@ body {
 }
 
 .robot {
-  margin: auto;
+  margin: 0 auto;
   width: 320px;
   position: relative;
 }
 
 .robot-body {
+  margin: 0 auto;
   width: 320px;
+  display: block;
 }
 
 .robot-brain {
+  position: absolute;
+  top: 0;
   width: 46px;
+  left: 135px;
 }
 
 .robot-head-right
@@ -38,9 +43,16 @@ body {
   width: 125px;
   position: absolute;
   top: 0;
-  left: 0;
+  margin: 0 auto;
+
 }
 
 .robot-head-right {
+position: absolute;
+left: 160px;
+}
 
+.robot-head-left {
+  position: absolute;
+  right: 160px;
 }
